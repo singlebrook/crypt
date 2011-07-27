@@ -44,7 +44,7 @@ class Blowfish
     0.upto(17) { |i|
       data = 0
       4.times {
-        data = ((data << 8) | @key[keypos]) % ULONG
+        data = ((data << 8) | @key[keypos].ord) % ULONG
         keypos = (keypos.next) % @key.length
       }
       @pArray[i] = (@pArray[i] ^ data) % ULONG
