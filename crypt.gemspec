@@ -3,7 +3,7 @@ rubygems_version: 0.8.10
 specification_version: 1
 name: crypt
 version: !ruby/object:Gem::Version 
-  version: 1.1.4
+  version: 1.1.5
 date: 2006-08-06
 summary: "The Crypt library is a pure-ruby implementation of a number of popular
   encryption algorithms. Block cyphers currently include Blowfish, GOST, IDEA, and
