@@ -1,0 +1,33 @@
+# INSTALL
+
+To install the Crypt library, unpack the archive and run the installation 
+script install.rb:
+
+  $  tar xzvf crypt-1.00.tar.gz
+  $  cd crypt
+  $  ruby install.rb
+
+alternatively, if you are using the zip file:
+  
+  c:\>  unzip crypt-1.00.zip
+  c:\>  cd crypt
+  c:\crypt>  ruby install.rb
+  
+The installation script creates a crypt/ directory under the main ruby directory
+and installs the following files:
+
+  ruby/1.8/crypt/blowfish.rb
+  ruby/1.8/crypt/blowfish-tables.rb
+  ruby/1.8/crypt/cbc.rb
+  ruby/1.8/crypt/gost.rb
+  ruby/1.8/crypt/idea.rb
+  ruby/1.8/crypt/noise.rb
+  ruby/1.8/crypt/rijndael.rb
+  ruby/1.8/crypt/rijndael-tables.rb
+  ruby/1.8/crypt/stringxor.rb
+  
+
+A script is provided to uninstall the crypt library without residue:
+
+  $  ruby uninstall.rb
+  

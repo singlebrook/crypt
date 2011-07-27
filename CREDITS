@@ -1,0 +1,13 @@
+# CREDITS
+
+The Blowfish code was adapted from Bruce Schneier's reference C code 
+(http://www.schneier.com/blowfish-download.html)
+
+The GOST code was adapted from Wei Dai's C++ code from the Crypto++ project 
+(http://sourceforge.net/projects/cryptopp).
+
+The IDEA code was based on the reference C implementation once published by MediaCrypt 
+(http://web.archive.org/web/20000816173624/www.ascom.ch/infosec/downloads.html)
+
+The Rijndael code was adapted from the reference ANSI C code by Paulo Barreto and Vincent Rijmen.
+(http://www.esat.kuleuven.ac.be/~rijmen/rijndael/rijndael-fst-3.0.zip)
