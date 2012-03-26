@@ -26,6 +26,7 @@ required_ruby_version: !ruby/object:Gem::Version::Requirement
       - !ruby/object:Gem::Version 
         version: 0.0.0
   version: 
+required_rubygems_version = '>= 1.8.0'
 platform: ruby
 authors: 
   - Richard Kernahan
